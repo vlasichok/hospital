@@ -1,10 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<h1> Hello Hospital </h1>
-</body>
+    <head>
+        <base href="./">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css/">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <title>Omnifood</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="row">
+                    <img src="resources/img/logo-white.png" alt="Omnifood logo" class="logo">
+                    <img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black">
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#about" class="js--scroll-to-about">About us</a></li>
+                        <li><a href="#partners" class="js--scroll-to-partners">Our Partners</a></li>
+                        <li><a href="#team" class="js--scroll-to-team">Our Team</a></li>
+                        <li><a href="#contact" class="js--scroll-to-contact">Contact us</a></li>
+                    </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                </div>
+            </nav>
+            <div class="hero-text-box">
+                <h1>International Medical centre<br>"Health"</h1>
+                <a class="btn btn-full" href="#">Find out about service we provide</a>
+                <a class="btn btn-ghost" href="#">Find out our address</a>
+            </div>
+            
+        </header>
+        
+        <section class="section-about js--section-about" id="features">
+            <div class="row">
+                <h2>About us</h2>
+            </div>
+            
+            <div class="row js--wp-1">
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-pulse-strong icon-big"></i>
+                    <h3>Revealing chronic diseases among seafarers</h3>
+                    <p>
+                        Revealing chronic diseases among seafarers
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-medical-outline icon-big"></i>
+                    <h3>Treatment of chronic diseases</h3>
+                    <p>
+                        Treatment of chronic diseases
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-medkit-outline icon-big"></i>
+                    <h3>Prophylactics of chronic diseases</h3>
+                    <p>
+                        Prophylactics of chronic diseases
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-people-outline icon-big"></i>
+                    <h3>Diagnostics of seafarers</h3>
+                    <p>
+                        Diagnostics of seafarers , their dependants, and other people
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <p class="long-copy">
+                    We a have a daily hospital for those seafarers who need a post-employment rehabilitation of the chronic diseases and newly revealed acute pathology, and other prophylactic measures.
+                </p>
+            </div>
+        </section>
+        
+        <section class="section-partners js--section-partners">
+            <div class="row">
+                <h2>Medical centre "Health" cooperate with different manning agencies</h2>
+            </div>
+            <div class="row">
+                <p> TODO </p>
+            </div>
+        </section>
+        
+        
+        <section class="section-team js--section-team" id="plans">
+            <div class="row">
+                <h2>Meet our team</h2>
+            </div>
+            <div class="row">
+                <p> TODO </p>
+                <div class="col span-1-of-4">
+
+                </div>
+                <div class="col span-1-of-4">
+
+                </div>
+                <div class="col span-1-of-4">
+
+                </div>
+                <div class="col span-1-of-4">
+
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-contact js--section-contact">
+            <div class="row">
+                <h2>Please feel free to contact us anytime</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us">
+                                <option value="friends" selected>Friends</option>
+                                <option value="search">Search engine</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Newsletter?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" checked> Yes, please
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>How can we help you?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it!">
+                        </div>
+                    </div>
+                    
+                </form>
+                
+            </div>
+        </section>
+        
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our services</a></li>
+                        <li><a href="#">Leave a feedback</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+    
+    </body>  
+    
 </html>
